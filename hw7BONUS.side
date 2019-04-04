@@ -1,0 +1,824 @@
+{
+  "id": "b2855cf6-e814-4bc9-85f2-13e2e15b7932",
+  "version": "2.0",
+  "name": "hw7",
+  "url": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+  "tests": [{
+    "id": "3b23aeb6-584a-4ac4-8354-03a6d866ed38",
+    "name": "Testing valid positive number input for all",
+    "commands": [{
+      "id": "6baaca36-789c-4d5c-be96-b6ed1db05598",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ff0b138-deb2-4775-b7c0-284105c017e4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8b705c4-af2a-4c6e-9a7e-6ba46ec1cb9c",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef7185ea-26ca-4bd1-97e2-49e344bd0c1b",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 1\\n1 2\\n2 3\\n3 0"
+    }, {
+      "id": "67430f74-f053-410e-9f56-43ff1e98d4f7",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "51be3380-9f01-4d53-bdc3-d17a140051a9",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "42b31f6c-54f1-4ea2-92fe-45345b5bbe6a",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0519096c-1729-4fa2-ac22-0cda6c48f8ba",
+      "comment": "error box should not appear",
+      "command": "assertElementNotPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "769a42eb-f3d2-40ce-b294-2613e7806875",
+    "name": "valid strings for all",
+    "commands": [{
+      "id": "26285818-2499-46c6-9d23-c2264acd18be",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1737ca4f-ac42-4aec-a3d2-d84da87a7c1c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c4991b1-de9a-42a5-bf21-3dd0ee16b27b",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec80dff-cae4-475c-abf8-b7893fdb5d8b",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "x y\\ny z\\nz foo\\nfoo x"
+    }, {
+      "id": "8f9b91a6-0a0c-4e6d-a271-494fbf42aafa",
+      "comment": "",
+      "command": "click",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e2680d7-1ae9-4bbf-ab24-62140de7cd1f",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "x"
+    }, {
+      "id": "2e5ba0ab-4788-4b23-876d-893bbc7a056b",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "foo"
+    }, {
+      "id": "65d34a78-8173-43cf-af6a-91e7f8f8146c",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d120b0-4dd2-498d-a0e1-57918eac865b",
+      "comment": "error box should not be present",
+      "command": "assertElementNotPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b88b11d-59b0-4a54-8c63-5abf62a6c31e",
+    "name": "Valid strings and positive ints mixed",
+    "commands": [{
+      "id": "c444fc8b-173b-45df-8205-e3d8b301db97",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8514af0a-63dd-4ff4-bb5f-cc1a774e7ddc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9084ee9b-be15-48a7-9ea1-2241c31d4926",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "875e07c2-622f-4892-8e9a-261cb0d9fd7c",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 foo\\nfoo x\\nx 5\\n5 0"
+    }, {
+      "id": "28eafd6b-2351-40c5-a8d8-fa3ebfbe819d",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(2) tr:nth-child(2) > td",
+      "targets": [
+        ["css=td:nth-child(2) tr:nth-child(2) > td", "css:finder"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//td[2]/table/tbody/tr[2]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0fcf1a35-283b-46f7-bb9e-626bda4bbe63",
+      "comment": "",
+      "command": "click",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad8a698a-5397-4dae-805d-07bae4351733",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "9d9eda81-801e-47b3-b4e0-e9aab2ffba02",
+      "comment": "",
+      "command": "click",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3e47027-6e88-4611-9baa-90dae8896c68",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "047051f7-b443-42fe-96a2-df7d4e25728c",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a435b5ff-e22f-462b-a2b7-856a65324fd6",
+      "comment": "graph should appear",
+      "command": "assertElementPresent",
+      "target": "id=springydemo",
+      "targets": [
+        ["id=springydemo", "id"],
+        ["css=#springydemo", "css:finder"],
+        ["xpath=//canvas[@id='springydemo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td[2]/div/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5656e62-dd42-46ea-86f9-286ca9081c3f",
+      "comment": "error box should not be present",
+      "command": "assertElementNotPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "963f178e-bec4-4a99-929a-73ce7f4f9b53",
+    "name": "valid input in graph edges, and final nodes but invalid in initial nodes",
+    "commands": [{
+      "id": "d8c49e23-1063-4874-989d-0f5ae13b4033",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00bb79d0-3ada-4e6b-a4e2-3c0c068a12f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d5a3589-c4bf-4ae0-b143-343ad869e3dc",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e20cad8-9c94-4ccd-b35d-afa51b826097",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 1\\n1 2\\n2 0"
+    }, {
+      "id": "54545211-bca2-4a71-8680-417833597b49",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "b7a6bf14-f5a2-43be-98e4-ff6600e8ff35",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "dfc1fb04-e2d1-4c58-aed4-b144654acec4",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44006581-98cd-444e-b3fc-9a5373a9d9b0",
+      "comment": "error box should appear",
+      "command": "assertElementPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "62f808df-e03a-4416-bb04-c4aa3f228e86",
+    "name": "valid input for graph edges and initial nodes but invalid for final nodes",
+    "commands": [{
+      "id": "000db35a-fc94-4034-9008-3bb3e93d3254",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "85a1a9ea-406a-4142-84af-417dce33decb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75fe6ae7-a7b5-428e-8076-f785be0e5226",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c2f956c-42ea-4dfe-bade-ae676cb788e8",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 1\\n1 2\\n2 0"
+    }, {
+      "id": "000aed47-e07f-4c53-a340-a2bc21025675",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "51ed5cae-a349-45a4-a204-670fc3984fd9",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "73cfba19-a540-435e-b839-e799c6748ece",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5158e18-b580-45e6-a435-5d49c2e73d8b",
+      "comment": "error box should appear",
+      "command": "assertElementPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "83263afb-77ec-49a8-a8a8-50b440b79e63",
+    "name": "invalid for graph edges, but valid for initial and final nodes",
+    "commands": [{
+      "id": "10c20826-23f0-451b-9c57-f3ba6d5ba119",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b53c357-abd1-4c3d-9cad-f9184cd2f2ea",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bba3b709-421b-45e5-9395-42e8beb8341f",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cac1c363-465e-465a-bfa9-686d33af315c",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 1\\n1 *\\n2 1\\n2 0"
+    }, {
+      "id": "5370e61b-a542-4498-959b-fe0c717aa93b",
+      "comment": "",
+      "command": "click",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25a0279a-b90d-4350-94bb-bedf83e7d423",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "0b39fac4-5906-45b4-9f93-36968dcc8862",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "2a0152d9-79e5-491e-9c0c-4e32a2cc5bbe",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41b698ea-8d23-49bb-9196-25a3dbe1ca02",
+      "comment": "error box should appear",
+      "command": "assertElementPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a5c224a7-1a19-41f6-8866-8131a3f4e6a9",
+    "name": "invalid for all",
+    "commands": [{
+      "id": "8b864f2d-50e0-4ef3-a1f8-692e1dff7792",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c0dde04c-f844-4d38-aa0c-c62f7add6303",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69d212c0-6d6e-40c2-8926-58a13b25edb8",
+      "comment": "",
+      "command": "click",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4061a054-28f1-449e-bf4c-cd64644934fb",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "* 1\\n1 2\\n2 -1"
+    }, {
+      "id": "3e61c10f-37a3-41ba-b96f-063812e0fd80",
+      "comment": "",
+      "command": "type",
+      "target": "name=initialNode",
+      "targets": [
+        ["name=initialNode", "name"],
+        ["css=td:nth-child(2) > table input", "css:finder"],
+        ["xpath=//input[@name='initialNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[2]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "*"
+    }, {
+      "id": "f664b42a-fbbd-4b37-b8d4-3a7a075dce67",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "-1 5"
+    }, {
+      "id": "1e09e057-95df-49db-b38a-ffa444165b72",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "852a454e-ec85-46b2-8019-45f6c42eb5a5",
+      "comment": "error box should appear",
+      "command": "assertElementPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b64dbf5a-9811-43e1-9335-b1b688c082ee",
+    "name": "valid for all, checking if blank initial nodes text box sets initial correctly",
+    "commands": [{
+      "id": "cfe24828-55c2-4d37-9127-0c4ee52c7a11",
+      "comment": "",
+      "command": "open",
+      "target": "https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9de88099-424a-41bf-9856-bab5ac8c7377",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e50cf833-05fe-4200-96bc-4f52f6ff1fe4",
+      "comment": "",
+      "command": "type",
+      "target": "name=edges",
+      "targets": [
+        ["name=edges", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='edges']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td/table/tbody/tr[2]/td/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "0 1\\n1 2\\n2 0"
+    }, {
+      "id": "6cf7095a-bbba-485f-81e3-8d01f8ccac55",
+      "comment": "",
+      "command": "type",
+      "target": "name=endNode",
+      "targets": [
+        ["name=endNode", "name"],
+        ["css=td:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='endNode']", "xpath:attributes"],
+        ["xpath=//table[@id='tableForm']/tbody/tr/td[3]/table/tbody/tr[2]/td/input", "xpath:idRelative"],
+        ["xpath=//td[3]/table/tbody/tr[2]/td/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "5f0a468a-2126-4919-bb55-5ff1318d8f54",
+      "comment": "",
+      "command": "click",
+      "target": "name=action",
+      "targets": [
+        ["name=action", "name"],
+        ["css=tr:nth-child(5) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='action']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "899264b5-bf1a-4df0-8d35-9c87e0537e25",
+      "comment": "graph should appear",
+      "command": "assertElementPresent",
+      "target": "id=springydemo",
+      "targets": [
+        ["id=springydemo", "id"],
+        ["css=#springydemo", "css:finder"],
+        ["xpath=//canvas[@id='springydemo']", "xpath:attributes"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td[2]/div/canvas", "xpath:idRelative"],
+        ["xpath=//canvas", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e1244d3-2e3f-426b-8262-3dbac66fb85d",
+      "comment": "error box shouldn't be present",
+      "command": "assertElementNotPresent",
+      "target": "css=font:nth-child(2) > b",
+      "targets": [
+        ["css=font:nth-child(2) > b", "css:finder"],
+        ["xpath=//table[@id='tableResult']/tbody/tr/td/font/font/b", "xpath:idRelative"],
+        ["xpath=//font/font/b", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c3877e18-41d3-4406-9ff8-8ee641df51bc",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://cs.gmu.edu:8443/offutt/coverage/GraphCoverage"],
+  "plugins": []
+}
